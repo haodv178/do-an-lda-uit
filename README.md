@@ -40,7 +40,7 @@ cd lda
 
 **Bước 3: Tạo môi trường ảo**
 ```cmd
-python -m venv .
+python -m venv venv
 ```
 
 **Bước 4: Kích hoạt môi trường ảo**
@@ -81,7 +81,7 @@ cd lda
 
 **Bước 3: Tạo môi trường ảo**
 ```bash
-python3 -m venv .
+python3 -m venv venv
 ```
 
 **Bước 4: Kích hoạt môi trường ảo**
@@ -100,11 +100,6 @@ pip install numpy matplotlib scikit-learn seaborn notebook
 jupyter notebook
 ```
 Trình duyệt sẽ tự mở tại `http://localhost:8888`. Chọn file `LDA.ipynb` để mở.
-
-> **Lưu ý:** Nếu không có trình duyệt GUI (server headless), thêm flag `--no-browser` và truy cập URL thủ công:
-> ```bash
-> jupyter notebook --no-browser --port=8888
-> ```
 
 ---
 
@@ -129,7 +124,7 @@ cd lda
 
 **Bước 3: Tạo môi trường ảo**
 ```bash
-python3 -m venv .
+python3 -m venv venv
 ```
 
 **Bước 4: Kích hoạt môi trường ảo**
